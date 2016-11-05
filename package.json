@@ -1,0 +1,70 @@
+{
+    "author": "Maxwell Moseley",
+    "dependencies": {},
+    "keywords": [],
+    "name": "basic1",
+    "pebble": {
+        "displayName": "Basic1",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[A-Za-z]",
+                    "file": "fonts/HVD Fonts - PlutoSansBold.ttf",
+                    "name": "DATE_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/HVD Fonts - PlutoSansBold.ttf",
+                    "name": "DATE_28",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9: ]",
+                    "file": "fonts/HVD Fonts - PlutoSansBold.ttf",
+                    "name": "TIME_52",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/HVD Fonts - PlutoSansBold.ttf",
+                    "name": "TIME_64",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/HVD Fonts - PlutoSansBold.ttf",
+                    "name": "DATE_32",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[A-Za-z]",
+                    "file": "fonts/HVD Fonts - PlutoSansBold.ttf",
+                    "name": "DATE_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "93ee84d7-4a13-4827-b7b8-1aff523a8403",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.2.0"
+}

@@ -1,0 +1,88 @@
+[
+{
+  "type": "heading",
+  "defaultValue": "Basic 1 Config"
+},
+{
+  "type": "section",
+  "items": [
+    {
+      "type": "heading",
+      "defaultValue": "Colors"
+    },
+    {
+      "type": "color",
+      "messageKey": "BackgroundColor",
+      "defaultValue": "0x000000",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "messageKey": "HourColor",
+      "defaultValue": "0xFFFFFF",
+      "label": "Hour"
+    },
+    {
+      "type": "color",
+      "messageKey": "MinColor",
+      "defaultValue": "0xFFFFFF",
+      "label": "Minute"
+    },
+    {
+      "type": "color",
+      "messageKey": "CalendarTopFGColor",
+      "defaultValue": "0xFFFFFF",
+      "label": "Calendar Top"
+    },
+    {
+      "type": "color",
+      "messageKey": "CalendarTopBGColor",
+      "defaultValue": "0xFF0000",
+      "label": "Calendar Top Background"
+    },
+    {
+      "type": "color",
+      "messageKey": "CalendarBottomFGColor",
+      "defaultValue": "0x00000",
+      "label": "Calendar Bottom"
+    },
+    {
+      "type": "color",
+      "messageKey": "CalendarBottomBGColor",
+      "defaultValue": "0xFFFFFF",
+      "label": "Calendar Bottom Background"
+    }
+  ]
+},
+{
+  "type": "section",
+  "items": [
+    {
+      "type": "heading",
+      "defaultValue": "Time and Date Settings"
+    },
+    {
+      "type": "toggle",
+      "messageKey": "showMonth",
+      "label": "Show Month instead of Weekday",
+      "defaultValue": false
+    },
+    {
+      "type": "toggle",
+      "messageKey": "vibeHour",
+      "label": "Vibrate on top of the hour",
+      "defaultValue": false
+    },
+    {
+      "type": "toggle",
+      "messageKey": "useMil",
+      "label": "Use 24Hr instead of 12Hr Format",
+      "defaultValue": true
+    }
+  ]
+},
+{
+  "type": "submit",
+  "defaultValue": "Save Settings"
+}
+]

@@ -1,12 +1,28 @@
 {
     "author": "Maxwell Moseley",
-    "dependencies": {},
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
     "keywords": [],
     "name": "basic1",
     "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
         "displayName": "Basic1",
-        "enableMultiJS": false,
-        "messageKeys": [],
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColor",
+            "HourColor",
+            "MinColor",
+            "CalendarTopFGColor",
+            "CalendarTopBGColor",
+            "CalendarBottomBGColor",
+            "CalendarBottomFGColor",
+            "showMonth",
+            "vibeHour",
+            "useMil"
+        ],
         "projectType": "native",
         "resources": {
             "media": [
@@ -66,5 +82,5 @@
             "watchface": true
         }
     },
-    "version": "1.2.0"
+    "version": "1.3.0"
 }

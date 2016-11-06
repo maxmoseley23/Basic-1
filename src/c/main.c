@@ -160,7 +160,7 @@ static void main_window_load(Window *window) {
   GRect bounds = layer_get_bounds(window_layer);
 
   hour_layer = text_layer_create(
-      GRect(center.x - 35, PBL_IF_ROUND_ELSE((center.y - 50) - 19, (center.y - 50) - 10), 144, 72));
+      GRect(PBL_IF_ROUND_ELSE(center.x - 38, center.x - 39), PBL_IF_ROUND_ELSE((center.y - 50) - 19, (center.y - 50) - 10), 144, 72));
 
   text_layer_set_background_color(hour_layer, GColorClear);
   text_layer_set_text_color(hour_layer, settings.HourColor);
@@ -170,7 +170,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(hour_layer, GTextAlignmentCenter);
   
   min_layer = text_layer_create(
-      GRect(center.x - 35, PBL_IF_ROUND_ELSE((center.y + 5) - 19, (center.y + 1) - 10), 144, 72));
+      GRect(PBL_IF_ROUND_ELSE(center.x - 38, center.x - 39), PBL_IF_ROUND_ELSE((center.y + 5) - 19, (center.y + 1) - 10), 144, 72));
 
   text_layer_set_background_color(min_layer, GColorClear);
   text_layer_set_text_color(min_layer, settings.MinColor);

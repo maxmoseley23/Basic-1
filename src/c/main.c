@@ -160,7 +160,7 @@ static void main_window_load(Window *window) {
   GRect bounds = layer_get_bounds(window_layer);
 
   hour_layer = text_layer_create(
-      GRect(center.x - 37, PBL_IF_ROUND_ELSE((center.y - 50) - 19, (center.y - 50) - 10), 144, 72));
+      GRect(center.x - 35, PBL_IF_ROUND_ELSE((center.y - 50) - 19, (center.y - 50) - 10), 144, 72));
 
   text_layer_set_background_color(hour_layer, GColorClear);
   text_layer_set_text_color(hour_layer, settings.HourColor);
@@ -170,7 +170,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(hour_layer, GTextAlignmentCenter);
   
   min_layer = text_layer_create(
-      GRect(center.x - 37, PBL_IF_ROUND_ELSE((center.y + 5) - 19, (center.y + 1) - 10), 144, 72));
+      GRect(center.x - 35, PBL_IF_ROUND_ELSE((center.y + 5) - 19, (center.y + 1) - 10), 144, 72));
 
   text_layer_set_background_color(min_layer, GColorClear);
   text_layer_set_text_color(min_layer, settings.MinColor);
@@ -180,7 +180,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(min_layer, GTextAlignmentCenter);
   
   s_date_layer = text_layer_create(
-      GRect(PBL_IF_ROUND_ELSE(center.x - 76, center.x - 68), PBL_IF_ROUND_ELSE((center.y + 5) - 18, (center.y + 5) - 10), 50, PBL_IF_ROUND_ELSE(40, 34)));
+      GRect(PBL_IF_ROUND_ELSE(center.x - 76, center.x - 68), PBL_IF_ROUND_ELSE((center.y + 5) - 15, (center.y + 5) - 10), 50, PBL_IF_ROUND_ELSE(40, 34)));
 
   text_layer_set_background_color(s_date_layer, settings.CalendarBottomBGColor);
   text_layer_set_text_color(s_date_layer, settings.CalendarBottomFGColor);
@@ -190,7 +190,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(s_date_layer, GTextAlignmentCenter);
   
   s_month_layer = text_layer_create(
-      GRect(PBL_IF_ROUND_ELSE(center.x - 76, center.x - 68), PBL_IF_ROUND_ELSE((center.y - 18) - 15, (center.y - 15) - 10), 50, PBL_IF_ROUND_ELSE(24, 20)));
+      GRect(PBL_IF_ROUND_ELSE(center.x - 76, center.x - 68), PBL_IF_ROUND_ELSE((center.y - 18) - 12, (center.y - 15) - 10), 50, PBL_IF_ROUND_ELSE(24, 20)));
 
   text_layer_set_background_color(s_month_layer, settings.CalendarTopBGColor);
   text_layer_set_text_color(s_month_layer, settings.CalendarTopFGColor);
